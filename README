@@ -1,0 +1,33 @@
+Task Identification:
+Task ID: 2025-01-12_23:19__DD80
+Task Title: XRP Correlation Analysis Script
+Task Proposal: Create a Python script that fetches 90 days of hourly price data for XRP and all Coinbase-listed assets using CoinAPI, calculates rolling correlation coefficients and beta values against XRP, and exports results as a JSON file with the top 5 most correlated/highest beta assets.
+Verification Prompt: Provide the URL to a public GitHub repository containing your Python script, including the commit hash for the final version. Additionally, paste the first 3 lines of the exported JSON file showing the top 5 correlated/highest beta assets and describe the axes and data points of the correlation stability visualization in 2-3 sentences.
+Date Assigned: 12 Jan 2025 23:19
+Objective:
+Create a comprehensive cryptocurrency analysis tool that identifies assets with strong price relationships to XRP through correlation and beta analysis.
+Task Details:
+Fetch 90 days of hourly price data for XRP and Coinbase assets
+Calculate rolling correlations and beta values
+Implement exponential backoff for rate limiting
+Include data validation checks
+Generate correlation stability visualizations
+Export top 5 results as JSON
+Completion Date:
+12 Jan 2025 23:36
+Evidence of Completion:
+Code Repository Link: https://github.com/RudyTheThird/XRP_correlation
+Documentation: Complete Python script with detailed docstrings and type hints
+Results: crypto_analysis_results.json containing top correlations and betas
+Screenshots/Demos: Generated correlation stability plots for each analyzed asset
+Verification Notes: First 3 lines of results.json:
+{
+  "top_correlations": [
+    {"symbol": "XLM", "correlation": 0.797, "beta": 0.464, "correlation_stability": 0.100}
+
+The correlation stability visualizations plot time on the x-axis and correlation coefficient (-1 to 1) on the y-axis, showing how the rolling 7-day correlation between XRP and each asset evolves over the 90-day period.
+Status:
+Completed: Successfully analyzed all available Coinbase assets against XRP, identifying Stellar (XLM) as the most correlated asset and USDT as having the highest beta value.
+Additional Assistance:
+Code Sample: Full implementation available in crypto_analysis.py
+Confidentiality: API key should be moved to environment variables for production use
