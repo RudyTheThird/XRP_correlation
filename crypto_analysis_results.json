@@ -1,0 +1,67 @@
+{
+  "top_correlations": [
+    {
+      "symbol": "XLM",
+      "correlation": 0.7972842509569901,
+      "beta": 0.46405971368233095,
+      "correlation_stability": 0.10017189701229025
+    },
+    {
+      "symbol": "VET",
+      "correlation": 0.768619893671665,
+      "beta": 0.5804075159041463,
+      "correlation_stability": 0.16963871055486549
+    },
+    {
+      "symbol": "HBAR",
+      "correlation": 0.7655749903160322,
+      "beta": 0.60436875325904,
+      "correlation_stability": 0.16531801551325806
+    },
+    {
+      "symbol": "DOT",
+      "correlation": 0.7561524366114346,
+      "beta": 0.7299523829057785,
+      "correlation_stability": 0.12571884003910838
+    },
+    {
+      "symbol": "ATOM",
+      "correlation": 0.7493879833826083,
+      "beta": 0.7491677584583253,
+      "correlation_stability": 0.13902105516033084
+    }
+  ],
+  "top_betas": [
+    {
+      "symbol": "USDT",
+      "correlation": 0.14825570545784725,
+      "beta": 8.450774558129925,
+      "correlation_stability": 0.08653580891914109
+    },
+    {
+      "symbol": "PYUSD",
+      "correlation": 0.08444382222266922,
+      "beta": 3.434586183332706,
+      "correlation_stability": 0.08796708417652112
+    },
+    {
+      "symbol": "DAI",
+      "correlation": -0.025761584400990533,
+      "beta": -2.3088332834516474,
+      "correlation_stability": 0.06144523331633624
+    },
+    {
+      "symbol": "WBTC",
+      "correlation": 0.6286129984393397,
+      "beta": 1.456876857701685,
+      "correlation_stability": 0.09205692748176895
+    },
+    {
+      "symbol": "BTC",
+      "correlation": 0.6470751086447153,
+      "beta": 1.2800254504660653,
+      "correlation_stability": 0.13638620321528822
+    }
+  ],
+  "analysis_timestamp": "2025-01-12T23:36:36.860918+00:00"
+}
